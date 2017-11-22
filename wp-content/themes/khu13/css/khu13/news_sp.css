@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+#news_post {
+  width: 100%;
+}
+.show_content {
+  margin-top: 20px;
+  text-align: justify;
+}
+.article .big_title {
+  font-size: 1.5em;
+}
+/* =home page
+-------------------------------------------------------------- */
+#all_post {
+  padding: 0;
+}
+
+.box_left, .box_right, .loop_post {
+  float: none;
+  width: 100%;
+  padding-left: 0;
+  height: auto;
+}
+
+.box_right {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.loop_post {
+  height: auto !important;
+}
+.loop_post img {
+  width: 100%;
+  height: auto;
+}
+.txt_row .author {
+  font-size: 0.8em;
+}
+.txt_row a.read_more {
+  padding-top: 0;
+}
+.box_left .txt_row .title {
+  font-size: 0.7em;
+  line-height: 1.1em
+}
+.loop_post .title a {
+  font-size: 0.9em;
+}
+
+/* =detail page
+-------------------------------------------------------------- */
+.row_post {
+  margin-top: 10px;
+  padding: 0;
+}
+.author_media {
+  padding-left: 0.5em;
+  margin-left: 0.5em;
+}
+.comment {
+  display: none;
+}
+.related ul li {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.related_stories .top_items {
+  padding: 0;
+  margin-bottom: 10px;
+}
+}
+
+
+/* =login-card
+-------------------------------------------------------------- */
+#login h1 {
+  padding-bottom: 5px;
+}
+.login-card {
+  padding: 20px;
+  background-color: #F7F7F7;
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.login-card h1 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+.login-card input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login-card input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.login-card input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.login-card a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-card a:hover {
+  opacity: 1;
+}
+
+.login-help {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+/* =point
+-------------------------------------------------------------- */
+#category_gifts {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+#category_gifts .detail {
+  width: 28%;
+  padding: 24px 14px 24px 24px;
+  float: left;
+}
+#category_gifts .videopc {
+  width: 28%;
+  padding-right: 24px;
+  float: left;
+}
+#category_gifts .loginbox {
+  width: 43.09623431%; 
+  float: left;
+}
+#category_gifts .detail h2 {
+  color: #80a0cf;
+  font-family: 'Source Sans Pro',sans-serif !important;
+  font-size: 34px;
+  margin-bottom: 26px; 
+}
+#category_gifts .detail .list_gifts {
+  margin-top: 0;
+  margin-left: 0;
+  list-style: none;
+  margin-bottom: 11px;  
+  counter-reset: ordered-list-count;
+} 
+#category_gifts .detail .list_gifts li {
+  position: relative;
+  margin-bottom: 16px;
+  padding-left: 38px;
+  font-size: 19px;
+  font-family: 'Source Sans Pro',sans-serif !important;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 1.25em;  
+}
+#category_gifts .detail .list_gifts li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-family: 'Source Sans Pro',sans-serif !important;
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.25em;
+  text-align: center;
+  content: counter(ordered-list-count);
+  counter-increment: ordered-list-count;
+}
+
+
+#welcome_user {
+  margin-bottom: 20px;
+}
+
+.content_ofPost > p > b {
+  float: left;
+  font-family: 'Source Sans Pro',sans-serif;
+  color: #ff3c1f;
+  font-size: 3.6em;
+  font-weight: 100;
+  line-height: 1em;
+  margin: -0.04em .2em -0.15em 0;
+}
+
+.content_ofPost > p.noteTit {
+  font-weight: bold;
+}
+
+.comment,
+.site-description {
+  display: none;
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.crumb {
+  margin-top: 30px;
+}
+#content {
+  margin-bottom: 20px;
+}
+#content .contact .box {
+  border-right: 1px solid #f37404;
+  border-left: 1px solid #f37404;
+}
+#content .number_phone {
+  padding: 10px 20px 0;
+}
+
+#content .number_phone span {
+  color: #f37404;
+  font-size: 241%;
+  font-weight: bold;
+  background: url(../../img/contact/ico-phone.gif) no-repeat left center;
+  padding-left: 35px;
+}
+
+#content .contact_txt {
+  padding: 0 20px 13px;
+  font-size: 117%;
+}
+.contact .contact_title {
+  padding: 6px 20px 2px;
+  background: #f37404;
+}
+.contact_form .request {
+  color: #ff0000;
+}
+.contact .contact_title h2 {
+  font-size: 125%;
+  color: #fff;
+}
+
+.contact_form {
+  width: 100%;
+  border: 1px solid #f37404;
+}
+
+.contact_form tr {
+  border-top: 1px solid #f37404;
+}
+
+.contact_form th {
+  width: 210px;
+  border-right: 1px solid #f37404;
+  font-size: 117%;
+  padding: 11px 20px;
+  font-weight: normal;
+}
+
+.contact_form .check_box {
+  padding: 10px;
+}
+
+.contact label input[type="checkbox"] {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact .request {
+  color: #ff0000;
+}
+
+.contact_form td {
+  padding: 5px;
+}
+
+.contact_form input[type="text"],
+.contact_form input[type="tel"],
+.contact_form input[type="email"] {
+  width: 98%;
+  padding-left: 10px;
+  height: 40px;
+  line-height: 40px;
+  background: #ededed;
+  border: none;
+  outline: #ff8605;
+}
+
+.contact_form .textarea {
+  line-height: 0;
+}
+
+.contact_form textarea {
+  line-height: 1.5em;
+  background: #ededed;
+  border: none;
+  width: 98%;
+  padding: 10px 0 0 10px;
+  height: auto;
+  min-height: 253px;
+  outline: #ff8605;
+}
+
+.contact_button {
+  text-align: center;
+}
+
+.contact_button input {
+  border: none;
+  background: url(../../images/khu13/btn-send.jpg) no-repeat 0 0;
+  width: 236px;
+  height: 40px;
+  margin: 10px 0 0;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+span.wpcf7-list-item {
+  display: block;
+  padding: 10px;
+  margin: 0;
+}
+.banner .inner_title {
+  text-align: center;
+  background: #ffb005;
+  padding: 40px 20px;
+}
+.banner .title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

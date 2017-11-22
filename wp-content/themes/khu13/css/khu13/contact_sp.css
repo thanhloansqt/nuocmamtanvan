@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+.crumb,
+.crumb a {
+  color: #fff;
+}
+.crumb span {
+  color: #f1f1f1;
+}
+.crumb {
+  margin-bottom: 9px;
+}
+/* contact
+--------------------------------------*/
+
+#content .contact {
+  margin-top: 10px;
+}
+#content .contact_txt {
+  padding: 0 10px !important;
+}
+.contact_box {
+  padding: 0;
+  background: none;
+}
+.contact_box .mess {
+  font-size: 14px;
+}
+.contact_form dt {
+  float: none;
+  width: 100%;
+}
+.contact_form dd {
+  width: 100%;
+  float: none;
+}
+.contact_form .survey label {
+  margin-right: 0;
+  display: block;
+}
+.contact_form .survey label + label {
+  margin-top: 8px;
+}
+.contact_form dl {
+  padding: 20px 0;
+}
+.contact_form dt, .contact_form dd {
+  padding: 0;
+  font-size: 16px;
+}
+.contact_form dt {
+  padding-bottom: 10px;
+}
+.contact_form input[type="text"] {
+  background: #fff;
+  box-sizing: border-box;
+}
+.contact_form .email,
+.contact_form .tel,
+.contact_form .full_name,
+.contact_form .last_name, .contact_form .first_name {
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact_form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+}
+.submit {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}

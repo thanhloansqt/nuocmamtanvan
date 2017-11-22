@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+/*---------------------------------------
+    reset CSS
+----------------------------------------*/
+html{overflow-y:scroll;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}table{border-collapse:collapse;border-spacing:0;}caption,th{text-align:left;}q:before,q:after{content:'';}object,embed{vertical-align:top;}hr,legend{display:none;}h1,h2,h3,h4,h5,h6{font-size:100%;}img,abbr,acronym,fieldset{border:0;}ul li{list-style-type:none;}a,label{cursor:pointer;}img{vertical-align:bottom;margin:0;padding:0;}
+
+
+
+
+
+/*  header
+----------------------------------------*/
+body {
+  color: #000;
+  font-family: 'HelveticaRegular',Helvetica,Arial;
+  font-size: 12px;
+  background: #fff;
+}
+
+#wapper {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: #f7f7f7;
+}
+.inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  text-align: center;
+  padding: 10px 0;
+  background: #fff;
+  overflow: hidden;
+}
+#header .logo {
+  overflow: hidden;
+  background: url(../images/img-border_header.png) repeat-x left center !important;
+}
+#header h1 {
+  width: 370px;
+  margin: 0 auto;
+  background: #fff;
+}
+/*----------------------------------------
+    content
+----------------------------------------*/
+#content {
+  font-size: 14px;
+  position: relative;
+  margin-top: 10px;
+}
+#content .title {
+  padding-top: 10px;
+  background: url(../images/img-border.png) repeat-x top center;
+}
+
+#rowlist {
+  margin-top: 10px;
+  overflow: hidden;
+  padding-top: 10px;
+  background: url(../images/img-border.png) repeat-x top center;
+}
+#rowlist .rowitem {
+  margin-top: 30px;
+  overflow: hidden;
+}
+.imgborder {
+  margin-top: 10px;
+  padding-top: 10px;
+  background: url(../images/img-border.png) repeat-x top center;  
+}
+
+#rowlist .rowitem .txt {
+  width: 360px;
+  float: left;
+  display: inline-block;
+  padding-top: 20px;
+  background: url(../images/bg-txt_top.png) repeat-x 0 0;
+}
+#rowlist .rowitem .txt h3 {
+  padding-top: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #000; 
+}
+#rowlist .rowitem .txt p {
+  font-size: 25px;  
+}
+#rowlist .rowitem .txt dl {
+  margin-top: 20px;
+  overflow: hidden;
+}
+#rowlist .rowitem .txt dt,
+#rowlist .rowitem .txt dd {
+  float: left;
+}
+#rowlist .rowitem .txt dd {
+  color: #e33e39;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding: 8px 33px;
+  border: 4px solid #e33e39;
+}
+#rowlist .rowitem .products {
+  width: 570px;
+  float: right;
+  text-align: center;
+  display: inline-block;
+}
+#rowlist .rowitem .products .tit {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #966600;
+}
+#rowlist .rowitem .products ul {
+  overflow: hidden;
+  margin-top: 20px;
+}
+#rowlist .rowitem .products ul li {
+  width: 280px;
+  padding: 0 35px;
+  text-align: center;
+  float: left;
+  margin-left: 10px;
+  background: #fff;
+}
+#rowlist .rowitem .products ul li .info p {
+  width: 100%;
+  text-align: center;
+}
+#rowlist .rowitem .products ul li.none {
+  margin-left: 0;
+}
+.img {
+  margin-left: 30px;
+  padding-left: 30px;
+  margin-top: 15px;
+  background: url(../images/img-border_height.png) repeat-y top left;  
+}
+#rowlist .rowitem .whyuse {
+  width: 399px;
+  overflow: hidden;
+  padding-top: 12px;
+  padding-bottom: 40px;
+}
+.bx-wrapper {
+  margin-bottom: 0px;
+}
+#rowlist .rowitem .slider {
+  position: relative;
+  padding-top: 40px;
+}
+#rowlist .rowitem .slider .other {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  z-index: 2000;
+}
+.imgbottom {
+  margin-top: 10px;
+  padding-top: 10px;
+  background: url(../images/img-border.png) repeat-x bottom center; 
+}
+/*  infomation
+----------------------------------------*/
+#content .infomation {
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#content .infomation .aboutus,
+#content .infomation .company,
+#content .infomation .advane {
+  float: left;
+}
+#content .infomation .aboutus {
+  width: 470px;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+#content .infomation .aboutus p {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #595959;
+}
+#content .infomation .aboutus p.none {
+  margin-top: 0;
+}
+#content .infomation .aboutus span {
+  float: left;
+  margin-right: 10px;
+}
+#content .infomation .company {
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+#content .infomation .company .tit {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #595959;
+  text-transform: uppercase;
+}
+#content .infomation .advane {
+  width: 220px;
+  position: relative;
+}
+#content .infomation .advane .click {
+  position: absolute;
+  z-index: 200;
+  top: 5%;
+  right: 5%;
+}
+
+
+
+/*  header
+----------------------------------------*/
+#footer {
+  padding: 20px 0;
+  color: #d5d5d5;
+  overflow: hidden;
+  background: #2c2c2b;
+}
+#footer .contact {
+  width: 600px;
+  float: left;
+  display: inline-block;
+}
+#footer .contact ul li {
+  margin-bottom: 8px;
+}
+#footer .contact span {
+  width: 80px;
+  font-style: italic;
+  display: inline-block;
+  float: left;
+}
+#footer .contact p {
+  display: inline-block;
+}
+
+#footer .copyright p {
+  float: right;
+  display: inline-block;
+}
+#footer .copyright a {
+  display: inline-block;
+  text-decoration: none;
+  color: #d5d5d5;
+}
+#footer .copyright a:hover {
+  text-decoration: underline;
+  font-style: italic;
+}

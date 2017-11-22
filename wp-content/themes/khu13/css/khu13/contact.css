@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+
+
+
+#contents {
+  background: url(../img/bg-header_contact.jpg) no-repeat center 0;
+}
+#content .banner {
+  margin-bottom: 30px;
+}
+#content .contact_txt {
+  font-size: 25px;
+  color: #fff;
+}
+/* #article
+----------------------------------------------------*/
+#article {
+  padding-top: 330px;
+  padding-bottom: 200px;
+}
+.contact_box {
+  background: #fff;
+  padding: 50px;
+}
+.contact_box .mess {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  color: #5f5f5f;
+}
+.article_inner {
+  width: 860px;
+  margin-left: 100px;
+}
+.title {
+  margin: 62px 0;
+  text-align: center;
+}
+.contact_form dl {
+  overflow: hidden;
+  border-top: 1px solid #d7d4cd;
+}
+.contact_form dt {
+  float: left;
+  clear: both;
+  width: 240px;
+}
+.contact_form dt span {
+  color: red;
+}
+.contact_form dd {
+  float: right;
+  width: 620px;
+}
+.contact_form dt,
+.contact_form dd {
+  font-size: 18px;
+  color: #010101;
+  padding: 22px 0;
+}
+.contact_form input[type="text"] {
+  padding: 0.4em;
+  border: 1px solid #e0d8c9;
+  background: #f7f7f7;
+}
+.contact_form textarea {
+  border: 1px solid #e0d8c9;
+  height: 200px;
+  width: 600px;
+  padding: 0.4em;
+  background: #f7f7f7;
+}
+.contact_form .email,
+.contact_form .tel,
+.contact_form .full_name {
+  width: 600px;
+}
+.contact_form label,
+.contact_form label span,
+.contact_form label input {
+  vertical-align: middle;
+}
+.contact_form .last_name,
+.contact_form .first_name {
+  width: 600px;
+}
+.contact_form .last_name {
+  margin-bottom: 15px;
+}
+.contact_form .survey input[type="checkbox"] {
+  margin-right: 6px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ccc;
+}
+.contact_form .survey label {
+  margin-right: 50px;
+}
+.contact_form .survey label.edge {
+  margin-right: 0;
+}
+.submit {
+  text-align: center;
+  margin-top: 35px;
+}
+.submit input {
+  width: 236px;
+  height: 40px;
+  background: url(../../images/khu13/btn-send.jpg) 0 0 no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.submit input:hover {
+  opacity: 0.6;
+  filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+}
+.contact_form p.error{
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
